@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:ex="http://example.org/emorap/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+>
+  <rdf:Description rdf:about="http://example.org/emorap/TenThousand">
+    <rdf:type rdf:resource="http://example.org/emorap/Label"/>
+    <rdfs:label>TenThousand Projects</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/CWWYS2">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>Come Over When You're Sober, Pt. 2</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/LilPeep"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-11-09</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/Columbia"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/JuiceWRLD">
+    <rdf:type rdf:resource="http://example.org/emorap/Artist"/>
+    <foaf:name>Juice WRLD</foaf:name>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-12-02</schema:birthDate>
+    <ex:bornIn rdf:resource="http://example.org/emorap/Chicago"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/AlbumQuestion">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>?</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/XXXTentacion"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-03-16</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/Empire"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/AWAL">
+    <rdf:type rdf:resource="http://example.org/emorap/Label"/>
+    <rdfs:label>AWAL</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Collective">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Group"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/SAD">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>SAD!</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/XXXTentacion"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/AlbumQuestion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/LucidDreams">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Lucid Dreams</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/JuiceWRLD"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/GoodbyeGoodRiddance"/>
+    <ex:producedBy rdf:resource="http://example.org/emorap/NickMira"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/onAlbum">
+    <rdfs:domain rdf:resource="http://example.org/emorap/Track"/>
+    <rdfs:range rdf:resource="http://example.org/emorap/Album"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/producedBy">
+    <rdfs:range rdf:resource="http://example.org/emorap/Producer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Changes">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Changes</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/XXXTentacion"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/AlbumQuestion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/LifesATrip">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>Life's a Trip</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/TrippieRedd"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-08-10</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/TenThousand"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/LegendsNeverDie">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>Legends Never Die</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/JuiceWRLD"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-07-10</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/Interscope"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/BenzTruck">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Benz Truck</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/LilPeep"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/CWWYS1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/DeathRaceForLove">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>Death Race for Love</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/JuiceWRLD"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2019-03-08</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/Interscope"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/TakingAWalk">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Taking a Walk</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/TrippieRedd"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/LifesATrip"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/GoodbyeGoodRiddance">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>Goodbye &amp; Good Riddance</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/JuiceWRLD"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-05-23</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/Interscope"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/SaveThatShit">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Save That Shit</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/LilPeep"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/CWWYS1"/>
+    <ex:producedBy rdf:resource="http://example.org/emorap/Smokeasac"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Plantation">
+    <rdf:type rdf:resource="http://example.org/emorap/City"/>
+    <rdfs:label>Plantation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/GothBoiClique">
+    <rdf:type rdf:resource="http://example.org/emorap/Collective"/>
+    <foaf:name>GothBoiClique</foaf:name>
+    <ex:basedIn rdf:resource="http://example.org/emorap/LosAngeles"/>
+    <foaf:member rdf:resource="http://example.org/emorap/LilPeep"/>
+    <foaf:member rdf:resource="http://example.org/emorap/LilTracy"/>
+    <foaf:member rdf:resource="http://example.org/emorap/WiccaPhase"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/AwfulThings">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Awful Things</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/LilPeep"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/CWWYS1"/>
+    <ex:producedBy rdf:resource="http://example.org/emorap/Smokeasac"/>
+    <ex:featuring rdf:resource="http://example.org/emorap/LilTracy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/AllGirls">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>All Girls Are the Same</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/JuiceWRLD"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/GoodbyeGoodRiddance"/>
+    <ex:producedBy rdf:resource="http://example.org/emorap/NickMira"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/JocelynFlores">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Jocelyn Flores</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/XXXTentacion"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/Album17"/>
+    <ex:producedBy rdf:resource="http://example.org/emorap/Potsu"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Allentown">
+    <rdf:type rdf:resource="http://example.org/emorap/City"/>
+    <rdfs:label>Allentown</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/CloudRap">
+    <rdf:type rdf:resource="http://example.org/emorap/Genre"/>
+    <rdfs:label>Cloud rap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/performedBy">
+    <rdfs:domain rdf:resource="http://example.org/emorap/Track"/>
+    <rdfs:range rdf:resource="http://example.org/emorap/Artist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Columbia">
+    <rdf:type rdf:resource="http://example.org/emorap/Label"/>
+    <rdfs:label>Columbia Records</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/FallingDown">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Falling Down</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/LilPeep"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/CWWYS2"/>
+    <ex:featuring rdf:resource="http://example.org/emorap/XXXTentacion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/TrippieRedd">
+    <rdf:type rdf:resource="http://example.org/emorap/Artist"/>
+    <foaf:name>Trippie Redd</foaf:name>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-06-18</schema:birthDate>
+    <ex:bornIn rdf:resource="http://example.org/emorap/Canton"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Album">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MusicAlbum"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/MembersOnly">
+    <rdf:type rdf:resource="http://example.org/emorap/Collective"/>
+    <foaf:name>Members Only</foaf:name>
+    <foaf:member rdf:resource="http://example.org/emorap/XXXTentacion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/CWWYS1">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>Come Over When You're Sober, Pt. 1</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/LilPeep"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-15</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/AWAL"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/WiccaPhase">
+    <rdf:type rdf:resource="http://example.org/emorap/Artist"/>
+    <foaf:name>Wicca Phase Springs Eternal</foaf:name>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/CloudRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Chicago">
+    <rdf:type rdf:resource="http://example.org/emorap/City"/>
+    <rdfs:label>Chicago</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Smokeasac">
+    <rdf:type rdf:resource="http://example.org/emorap/Producer"/>
+    <foaf:name>Smokeasac</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/NickMira">
+    <rdf:type rdf:resource="http://example.org/emorap/Producer"/>
+    <foaf:name>Nick Mira</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Album17">
+    <rdf:type rdf:resource="http://example.org/emorap/Album"/>
+    <dcterms:title>17</dcterms:title>
+    <dcterms:creator rdf:resource="http://example.org/emorap/XXXTentacion"/>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-08-25</schema:datePublished>
+    <ex:releasedBy rdf:resource="http://example.org/emorap/Empire"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/LilPeep">
+    <rdf:type rdf:resource="http://example.org/emorap/Artist"/>
+    <foaf:name>Lil Peep</foaf:name>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-11-01</schema:birthDate>
+    <ex:bornIn rdf:resource="http://example.org/emorap/Allentown"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/CloudRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/LilTracy">
+    <rdf:type rdf:resource="http://example.org/emorap/Artist"/>
+    <foaf:name>Lil Tracy</foaf:name>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/CloudRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Genre">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Empire">
+    <rdf:type rdf:resource="http://example.org/emorap/Label"/>
+    <rdfs:label>Empire Distribution</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Revenge">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Revenge</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/XXXTentacion"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/Album17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Canton">
+    <rdf:type rdf:resource="http://example.org/emorap/City"/>
+    <rdfs:label>Canton</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Robbery">
+    <rdf:type rdf:resource="http://example.org/emorap/Track"/>
+    <dcterms:title>Robbery</dcterms:title>
+    <ex:performedBy rdf:resource="http://example.org/emorap/JuiceWRLD"/>
+    <ex:onAlbum rdf:resource="http://example.org/emorap/DeathRaceForLove"/>
+    <ex:producedBy rdf:resource="http://example.org/emorap/NickMira"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/City">
+    <rdfs:subClassOf rdf:resource="https://schema.org/City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/XXXTentacion">
+    <rdf:type rdf:resource="http://example.org/emorap/Artist"/>
+    <foaf:name>XXXTentacion</foaf:name>
+    <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-01-23</schema:birthDate>
+    <ex:bornIn rdf:resource="http://example.org/emorap/Plantation"/>
+    <ex:hasGenre rdf:resource="http://example.org/emorap/EmoRap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Potsu">
+    <rdf:type rdf:resource="http://example.org/emorap/Producer"/>
+    <foaf:name>Potsu</foaf:name>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Track">
+    <rdfs:subClassOf rdf:resource="https://schema.org/MusicRecording"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Interscope">
+    <rdf:type rdf:resource="http://example.org/emorap/Label"/>
+    <rdfs:label>Interscope Records</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/EmoRap">
+    <rdf:type rdf:resource="http://example.org/emorap/Genre"/>
+    <rdfs:label>Emo rap</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/featuring">
+    <rdfs:subPropertyOf rdf:resource="http://example.org/emorap/performedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/bornIn">
+    <rdfs:range rdf:resource="http://example.org/emorap/City"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Producer">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/releasedBy">
+    <rdfs:range rdf:resource="http://example.org/emorap/Label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Artist">
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/LosAngeles">
+    <rdf:type rdf:resource="http://example.org/emorap/City"/>
+    <rdfs:label>Los Angeles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/emorap/Label">
+    <rdfs:subClassOf rdf:resource="https://schema.org/Organization"/>
+  </rdf:Description>
+</rdf:RDF>

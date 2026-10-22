@@ -1,0 +1,240 @@
+оригінальний граф: 186 трійок
+після ручних змін: 194 трійок
+нові трійки:
+  ex:WishingWell rdf:type ex:Track
+  ex:WishingWell ex:performedBy ex:JuiceWRLD
+  ex:Righteous ex:onAlbum ex:LegendsNeverDie
+  ex:Righteous dcterms:title "Righteous"
+  ex:WishingWell dcterms:title "Wishing Well"
+  ex:Righteous ex:performedBy ex:JuiceWRLD
+  ex:WishingWell ex:onAlbum ex:LegendsNeverDie
+  ex:Righteous rdf:type ex:Track
+
+--- всі треки (вибрані трійки) ---
+ex:AllGirls -> All Girls Are the Same
+ex:AwfulThings -> Awful Things
+ex:BenzTruck -> Benz Truck
+ex:Changes -> Changes
+ex:FallingDown -> Falling Down
+ex:JocelynFlores -> Jocelyn Flores
+ex:LucidDreams -> Lucid Dreams
+ex:Revenge -> Revenge
+ex:Robbery -> Robbery
+ex:SAD -> SAD!
+ex:SaveThatShit -> Save That Shit
+ex:TakingAWalk -> Taking a Walk
+ex:WishingWell -> Wishing Well
+ex:Righteous -> Righteous
+
+--- всі трійки графу ---
+ex:AWAL rdf:type ex:Label
+ex:AWAL rdfs:label "AWAL"
+ex:Album rdfs:subClassOf schema:MusicAlbum
+ex:Album17 ex:hasGenre ex:EmoRap
+ex:Album17 ex:releasedBy ex:Empire
+ex:Album17 dcterms:creator ex:XXXTentacion
+ex:Album17 dcterms:title "17"
+ex:Album17 rdf:type ex:Album
+ex:Album17 schema:datePublished "2017-08-25"^^xsd:date
+ex:AlbumQuestion ex:hasGenre ex:EmoRap
+ex:AlbumQuestion ex:releasedBy ex:Empire
+ex:AlbumQuestion dcterms:creator ex:XXXTentacion
+ex:AlbumQuestion dcterms:title "?"
+ex:AlbumQuestion rdf:type ex:Album
+ex:AlbumQuestion schema:datePublished "2018-03-16"^^xsd:date
+ex:AllGirls ex:onAlbum ex:GoodbyeGoodRiddance
+ex:AllGirls ex:performedBy ex:JuiceWRLD
+ex:AllGirls ex:producedBy ex:NickMira
+ex:AllGirls dcterms:title "All Girls Are the Same"
+ex:AllGirls rdf:type ex:Track
+ex:Allentown rdf:type ex:City
+ex:Allentown rdfs:label "Allentown"
+ex:Artist rdfs:subClassOf foaf:Person
+ex:AwfulThings ex:featuring ex:LilTracy
+ex:AwfulThings ex:onAlbum ex:CWWYS1
+ex:AwfulThings ex:performedBy ex:LilPeep
+ex:AwfulThings ex:producedBy ex:Smokeasac
+ex:AwfulThings dcterms:title "Awful Things"
+ex:AwfulThings rdf:type ex:Track
+ex:BenzTruck ex:onAlbum ex:CWWYS1
+ex:BenzTruck ex:performedBy ex:LilPeep
+ex:BenzTruck dcterms:title "Benz Truck"
+ex:BenzTruck rdf:type ex:Track
+ex:CWWYS1 ex:hasGenre ex:EmoRap
+ex:CWWYS1 ex:releasedBy ex:AWAL
+ex:CWWYS1 dcterms:creator ex:LilPeep
+ex:CWWYS1 dcterms:title "Come Over When You're Sober, Pt. 1"
+ex:CWWYS1 rdf:type ex:Album
+ex:CWWYS1 schema:datePublished "2017-08-15"^^xsd:date
+ex:CWWYS2 ex:hasGenre ex:EmoRap
+ex:CWWYS2 ex:releasedBy ex:Columbia
+ex:CWWYS2 dcterms:creator ex:LilPeep
+ex:CWWYS2 dcterms:title "Come Over When You're Sober, Pt. 2"
+ex:CWWYS2 rdf:type ex:Album
+ex:CWWYS2 schema:datePublished "2018-11-09"^^xsd:date
+ex:Canton rdf:type ex:City
+ex:Canton rdfs:label "Canton"
+ex:Changes ex:onAlbum ex:AlbumQuestion
+ex:Changes ex:performedBy ex:XXXTentacion
+ex:Changes dcterms:title "Changes"
+ex:Changes rdf:type ex:Track
+ex:Chicago rdf:type ex:City
+ex:Chicago rdfs:label "Chicago"
+ex:City rdfs:subClassOf schema:City
+ex:CloudRap rdf:type ex:Genre
+ex:CloudRap rdfs:label "Cloud rap"
+ex:Collective rdfs:subClassOf foaf:Group
+ex:Columbia rdf:type ex:Label
+ex:Columbia rdfs:label "Columbia Records"
+ex:DeathRaceForLove ex:hasGenre ex:EmoRap
+ex:DeathRaceForLove ex:releasedBy ex:Interscope
+ex:DeathRaceForLove dcterms:creator ex:JuiceWRLD
+ex:DeathRaceForLove dcterms:title "Death Race for Love"
+ex:DeathRaceForLove rdf:type ex:Album
+ex:DeathRaceForLove schema:datePublished "2019-03-08"^^xsd:date
+ex:EmoRap rdf:type ex:Genre
+ex:EmoRap rdfs:label "Emo rap"
+ex:Empire rdf:type ex:Label
+ex:Empire rdfs:label "Empire Distribution"
+ex:FallingDown ex:featuring ex:XXXTentacion
+ex:FallingDown ex:onAlbum ex:CWWYS2
+ex:FallingDown ex:performedBy ex:LilPeep
+ex:FallingDown dcterms:title "Falling Down"
+ex:FallingDown rdf:type ex:Track
+ex:Genre rdf:type rdfs:Class
+ex:GoodbyeGoodRiddance ex:hasGenre ex:EmoRap
+ex:GoodbyeGoodRiddance ex:releasedBy ex:Interscope
+ex:GoodbyeGoodRiddance dcterms:creator ex:JuiceWRLD
+ex:GoodbyeGoodRiddance dcterms:title "Goodbye & Good Riddance"
+ex:GoodbyeGoodRiddance rdf:type ex:Album
+ex:GoodbyeGoodRiddance schema:datePublished "2018-05-23"^^xsd:date
+ex:GothBoiClique ex:basedIn ex:LosAngeles
+ex:GothBoiClique rdf:type ex:Collective
+ex:GothBoiClique foaf:member ex:LilPeep
+ex:GothBoiClique foaf:member ex:LilTracy
+ex:GothBoiClique foaf:member ex:WiccaPhase
+ex:GothBoiClique foaf:name "GothBoiClique"
+ex:Interscope rdf:type ex:Label
+ex:Interscope rdfs:label "Interscope Records"
+ex:JocelynFlores ex:onAlbum ex:Album17
+ex:JocelynFlores ex:performedBy ex:XXXTentacion
+ex:JocelynFlores ex:producedBy ex:Potsu
+ex:JocelynFlores dcterms:title "Jocelyn Flores"
+ex:JocelynFlores rdf:type ex:Track
+ex:JuiceWRLD ex:bornIn ex:Chicago
+ex:JuiceWRLD ex:hasGenre ex:EmoRap
+ex:JuiceWRLD rdf:type ex:Artist
+ex:JuiceWRLD foaf:name "Juice WRLD"
+ex:JuiceWRLD schema:birthDate "1998-12-02"^^xsd:date
+ex:Label rdfs:subClassOf schema:Organization
+ex:LegendsNeverDie ex:hasGenre ex:EmoRap
+ex:LegendsNeverDie ex:releasedBy ex:Interscope
+ex:LegendsNeverDie dcterms:creator ex:JuiceWRLD
+ex:LegendsNeverDie dcterms:title "Legends Never Die"
+ex:LegendsNeverDie rdf:type ex:Album
+ex:LegendsNeverDie schema:datePublished "2020-07-10"^^xsd:date
+ex:LifesATrip ex:hasGenre ex:EmoRap
+ex:LifesATrip ex:releasedBy ex:TenThousand
+ex:LifesATrip dcterms:creator ex:TrippieRedd
+ex:LifesATrip dcterms:title "Life's a Trip"
+ex:LifesATrip rdf:type ex:Album
+ex:LifesATrip schema:datePublished "2018-08-10"^^xsd:date
+ex:LilPeep ex:bornIn ex:Allentown
+ex:LilPeep ex:hasGenre ex:CloudRap
+ex:LilPeep ex:hasGenre ex:EmoRap
+ex:LilPeep rdf:type ex:Artist
+ex:LilPeep foaf:name "Lil Peep"
+ex:LilPeep schema:birthDate "1996-11-01"^^xsd:date
+ex:LilTracy ex:hasGenre ex:CloudRap
+ex:LilTracy rdf:type ex:Artist
+ex:LilTracy foaf:name "Lil Tracy"
+ex:LosAngeles rdf:type ex:City
+ex:LosAngeles rdfs:label "Los Angeles"
+ex:LucidDreams ex:onAlbum ex:GoodbyeGoodRiddance
+ex:LucidDreams ex:performedBy ex:JuiceWRLD
+ex:LucidDreams ex:producedBy ex:NickMira
+ex:LucidDreams dcterms:title "Lucid Dreams"
+ex:LucidDreams rdf:type ex:Track
+ex:MembersOnly rdf:type ex:Collective
+ex:MembersOnly foaf:member ex:XXXTentacion
+ex:MembersOnly foaf:name "Members Only"
+ex:NickMira rdf:type ex:Producer
+ex:NickMira foaf:name "Nick Mira"
+ex:Plantation rdf:type ex:City
+ex:Plantation rdfs:label "Plantation"
+ex:Potsu rdf:type ex:Producer
+ex:Potsu foaf:name "Potsu"
+ex:Producer rdfs:subClassOf foaf:Person
+ex:Revenge ex:onAlbum ex:Album17
+ex:Revenge ex:performedBy ex:XXXTentacion
+ex:Revenge dcterms:title "Revenge"
+ex:Revenge rdf:type ex:Track
+ex:Righteous ex:onAlbum ex:LegendsNeverDie
+ex:Righteous ex:performedBy ex:JuiceWRLD
+ex:Righteous dcterms:title "Righteous"
+ex:Righteous rdf:type ex:Track
+ex:Robbery ex:onAlbum ex:DeathRaceForLove
+ex:Robbery ex:performedBy ex:JuiceWRLD
+ex:Robbery ex:producedBy ex:NickMira
+ex:Robbery dcterms:title "Robbery"
+ex:Robbery rdf:type ex:Track
+ex:SAD ex:onAlbum ex:AlbumQuestion
+ex:SAD ex:performedBy ex:XXXTentacion
+ex:SAD dcterms:title "SAD!"
+ex:SAD rdf:type ex:Track
+ex:SaveThatShit ex:onAlbum ex:CWWYS1
+ex:SaveThatShit ex:performedBy ex:LilPeep
+ex:SaveThatShit ex:producedBy ex:Smokeasac
+ex:SaveThatShit dcterms:title "Save That Shit"
+ex:SaveThatShit rdf:type ex:Track
+ex:Smokeasac rdf:type ex:Producer
+ex:Smokeasac foaf:name "Smokeasac"
+ex:TakingAWalk ex:onAlbum ex:LifesATrip
+ex:TakingAWalk ex:performedBy ex:TrippieRedd
+ex:TakingAWalk dcterms:title "Taking a Walk"
+ex:TakingAWalk rdf:type ex:Track
+ex:TenThousand rdf:type ex:Label
+ex:TenThousand rdfs:label "TenThousand Projects"
+ex:Track rdfs:subClassOf schema:MusicRecording
+ex:TrippieRedd ex:bornIn ex:Canton
+ex:TrippieRedd ex:hasGenre ex:EmoRap
+ex:TrippieRedd rdf:type ex:Artist
+ex:TrippieRedd foaf:name "Trippie Redd"
+ex:TrippieRedd schema:birthDate "1999-06-18"^^xsd:date
+ex:WiccaPhase ex:hasGenre ex:CloudRap
+ex:WiccaPhase rdf:type ex:Artist
+ex:WiccaPhase foaf:name "Wicca Phase Springs Eternal"
+ex:WishingWell ex:onAlbum ex:LegendsNeverDie
+ex:WishingWell ex:performedBy ex:JuiceWRLD
+ex:WishingWell dcterms:title "Wishing Well"
+ex:WishingWell rdf:type ex:Track
+ex:XXXTentacion ex:bornIn ex:Plantation
+ex:XXXTentacion ex:hasGenre ex:EmoRap
+ex:XXXTentacion rdf:type ex:Artist
+ex:XXXTentacion foaf:name "XXXTentacion"
+ex:XXXTentacion schema:birthDate "1998-01-23"^^xsd:date
+ex:bornIn rdfs:range ex:City
+ex:featuring rdfs:subPropertyOf ex:performedBy
+ex:onAlbum rdfs:domain ex:Track
+ex:onAlbum rdfs:range ex:Album
+ex:performedBy rdfs:domain ex:Track
+ex:performedBy rdfs:range ex:Artist
+ex:producedBy rdfs:range ex:Producer
+ex:releasedBy rdfs:range ex:Label
+
+--- Lil Peep як суб'єкт ---
+rdf:type ex:Artist
+ex:bornIn ex:Allentown
+ex:hasGenre ex:CloudRap
+ex:hasGenre ex:EmoRap
+foaf:name "Lil Peep"
+schema:birthDate "1996-11-01"^^xsd:date
+
+--- Lil Peep як об'єкт ---
+ex:AwfulThings ex:performedBy
+ex:BenzTruck ex:performedBy
+ex:FallingDown ex:performedBy
+ex:GothBoiClique foaf:member
+ex:SaveThatShit ex:performedBy
+ex:CWWYS2 dcterms:creator
+ex:CWWYS1 dcterms:creator

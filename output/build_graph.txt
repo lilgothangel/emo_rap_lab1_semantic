@@ -1,0 +1,3 @@
+трійок у графі: 186
+типів сутностей: 8
+збережено: emo_rap.ttl, emo_rap.rdf, emo_rap.jsonld

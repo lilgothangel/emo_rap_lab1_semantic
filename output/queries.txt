@@ -1,0 +1,66 @@
+
+======================================================================
+1. Треки Juice WRLD
+======================================================================
+track | album
+Robbery | Death Race for Love
+All Girls Are the Same | Goodbye & Good Riddance
+Lucid Dreams | Goodbye & Good Riddance
+Righteous | Legends Never Die
+Wishing Well | Legends Never Die
+
+======================================================================
+2. Альбоми з 2018 року
+======================================================================
+title | artist | date
+? | XXXTentacion | 2018-03-16
+Goodbye & Good Riddance | Juice WRLD | 2018-05-23
+Life's a Trip | Trippie Redd | 2018-08-10
+Come Over When You're Sober, Pt. 2 | Lil Peep | 2018-11-09
+Death Race for Love | Juice WRLD | 2019-03-08
+Legends Never Die | Juice WRLD | 2020-07-10
+
+======================================================================
+3. Кількість треків у кожного артиста
+======================================================================
+name | tracks
+Juice WRLD | 5
+XXXTentacion | 5
+Lil Peep | 4
+Lil Tracy | 1
+Trippie Redd | 1
+
+======================================================================
+4. Лейбли треків учасників GothBoiClique
+======================================================================
+member | track | album | label
+Lil Peep | Awful Things | Come Over When You're Sober, Pt. 1 | AWAL
+Lil Peep | Benz Truck | Come Over When You're Sober, Pt. 1 | AWAL
+Lil Peep | Falling Down | Come Over When You're Sober, Pt. 2 | Columbia Records
+Lil Peep | Save That Shit | Come Over When You're Sober, Pt. 1 | AWAL
+Lil Tracy | Awful Things | Come Over When You're Sober, Pt. 1 | AWAL
+
+======================================================================
+5. Артисти, народжені після 1997
+======================================================================
+name | bd | city
+Trippie Redd | 1999-06-18 | Canton
+Juice WRLD | 1998-12-02 | Chicago
+XXXTentacion | 1998-01-23 | Plantation
+
+======================================================================
+6. Статистика по лейблах
+======================================================================
+label | albums | avgYear | first | last
+Interscope Records | 3 | 2019 | 2018-05-23 | 2020-07-10
+Empire Distribution | 2 | 2017.5 | 2017-08-25 | 2018-03-16
+Columbia Records | 1 | 2018 | 2018-11-09 | 2018-11-09
+TenThousand Projects | 1 | 2018 | 2018-08-10 | 2018-08-10
+AWAL | 1 | 2017 | 2017-08-15 | 2017-08-15
+
+======================================================================
+7. Спільні треки
+======================================================================
+main | feat | track | producer
+Lil Peep | Lil Tracy | Awful Things | Smokeasac
+Lil Peep | XXXTentacion | Falling Down | None

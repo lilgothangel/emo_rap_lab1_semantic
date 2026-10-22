@@ -1,0 +1,1021 @@
+[
+  {
+    "@id": "http://example.org/emorap/SAD",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/AlbumQuestion"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "SAD!"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/CWWYS2",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/Columbia"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/LilPeep"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Come Over When You're Sober, Pt. 2"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-11-09"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Canton",
+    "@type": [
+      "http://example.org/emorap/City"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Canton"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Revenge",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/Album17"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Revenge"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/DeathRaceForLove",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/Interscope"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/JuiceWRLD"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Death Race for Love"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2019-03-08"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/AwfulThings",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/featuring": [
+      {
+        "@id": "http://example.org/emorap/LilTracy"
+      }
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/CWWYS1"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/LilPeep"
+      }
+    ],
+    "http://example.org/emorap/producedBy": [
+      {
+        "@id": "http://example.org/emorap/Smokeasac"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Awful Things"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/TrippieRedd",
+    "@type": [
+      "http://example.org/emorap/Artist"
+    ],
+    "http://example.org/emorap/bornIn": [
+      {
+        "@id": "http://example.org/emorap/Canton"
+      }
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Trippie Redd"
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1999-06-18"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Potsu",
+    "@type": [
+      "http://example.org/emorap/Producer"
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Potsu"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Interscope",
+    "@type": [
+      "http://example.org/emorap/Label"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Interscope Records"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Label",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://schema.org/Organization"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/AlbumQuestion",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/Empire"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "?"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-03-16"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/LilTracy",
+    "@type": [
+      "http://example.org/emorap/Artist"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/CloudRap"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Lil Tracy"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Chicago",
+    "@type": [
+      "http://example.org/emorap/City"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Chicago"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Plantation",
+    "@type": [
+      "http://example.org/emorap/City"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Plantation"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/bornIn",
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://example.org/emorap/City"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/featuring",
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://example.org/emorap/performedBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/AWAL",
+    "@type": [
+      "http://example.org/emorap/Label"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "AWAL"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Album17",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/Empire"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "17"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-08-25"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/CloudRap",
+    "@type": [
+      "http://example.org/emorap/Genre"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Cloud rap"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/onAlbum",
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://example.org/emorap/Track"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://example.org/emorap/Album"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Album",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://schema.org/MusicAlbum"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Empire",
+    "@type": [
+      "http://example.org/emorap/Label"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Empire Distribution"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/GothBoiClique",
+    "@type": [
+      "http://example.org/emorap/Collective"
+    ],
+    "http://example.org/emorap/basedIn": [
+      {
+        "@id": "http://example.org/emorap/LosAngeles"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/member": [
+      {
+        "@id": "http://example.org/emorap/LilPeep"
+      },
+      {
+        "@id": "http://example.org/emorap/LilTracy"
+      },
+      {
+        "@id": "http://example.org/emorap/WiccaPhase"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "GothBoiClique"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/LosAngeles",
+    "@type": [
+      "http://example.org/emorap/City"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Los Angeles"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/producedBy",
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://example.org/emorap/Producer"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/performedBy",
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://example.org/emorap/Track"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://example.org/emorap/Artist"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/LilPeep",
+    "@type": [
+      "http://example.org/emorap/Artist"
+    ],
+    "http://example.org/emorap/bornIn": [
+      {
+        "@id": "http://example.org/emorap/Allentown"
+      }
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      },
+      {
+        "@id": "http://example.org/emorap/CloudRap"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Lil Peep"
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1996-11-01"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/TenThousand",
+    "@type": [
+      "http://example.org/emorap/Label"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "TenThousand Projects"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Allentown",
+    "@type": [
+      "http://example.org/emorap/City"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Allentown"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/MembersOnly",
+    "@type": [
+      "http://example.org/emorap/Collective"
+    ],
+    "http://xmlns.com/foaf/0.1/member": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Members Only"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Artist",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/LucidDreams",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/GoodbyeGoodRiddance"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/JuiceWRLD"
+      }
+    ],
+    "http://example.org/emorap/producedBy": [
+      {
+        "@id": "http://example.org/emorap/NickMira"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Lucid Dreams"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/JuiceWRLD",
+    "@type": [
+      "http://example.org/emorap/Artist"
+    ],
+    "http://example.org/emorap/bornIn": [
+      {
+        "@id": "http://example.org/emorap/Chicago"
+      }
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Juice WRLD"
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1998-12-02"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Columbia",
+    "@type": [
+      "http://example.org/emorap/Label"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Columbia Records"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/JocelynFlores",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/Album17"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://example.org/emorap/producedBy": [
+      {
+        "@id": "http://example.org/emorap/Potsu"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Jocelyn Flores"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Collective",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Group"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Producer",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://xmlns.com/foaf/0.1/Person"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/LegendsNeverDie",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/Interscope"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/JuiceWRLD"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Legends Never Die"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-07-10"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/TakingAWalk",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/LifesATrip"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/TrippieRedd"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Taking a Walk"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/CWWYS1",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/AWAL"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/LilPeep"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Come Over When You're Sober, Pt. 1"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2017-08-15"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/BenzTruck",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/CWWYS1"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/LilPeep"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Benz Truck"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/SaveThatShit",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/CWWYS1"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/LilPeep"
+      }
+    ],
+    "http://example.org/emorap/producedBy": [
+      {
+        "@id": "http://example.org/emorap/Smokeasac"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Save That Shit"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/EmoRap",
+    "@type": [
+      "http://example.org/emorap/Genre"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Emo rap"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/WiccaPhase",
+    "@type": [
+      "http://example.org/emorap/Artist"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/CloudRap"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Wicca Phase Springs Eternal"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Genre",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Class"
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/LifesATrip",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/TenThousand"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/TrippieRedd"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Life's a Trip"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-08-10"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/City",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://schema.org/City"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/AllGirls",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/GoodbyeGoodRiddance"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/JuiceWRLD"
+      }
+    ],
+    "http://example.org/emorap/producedBy": [
+      {
+        "@id": "http://example.org/emorap/NickMira"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "All Girls Are the Same"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Changes",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/AlbumQuestion"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Changes"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/releasedBy",
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://example.org/emorap/Label"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/FallingDown",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/featuring": [
+      {
+        "@id": "http://example.org/emorap/XXXTentacion"
+      }
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/CWWYS2"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/LilPeep"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Falling Down"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Smokeasac",
+    "@type": [
+      "http://example.org/emorap/Producer"
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Smokeasac"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/XXXTentacion",
+    "@type": [
+      "http://example.org/emorap/Artist"
+    ],
+    "http://example.org/emorap/bornIn": [
+      {
+        "@id": "http://example.org/emorap/Plantation"
+      }
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "XXXTentacion"
+      }
+    ],
+    "https://schema.org/birthDate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "1998-01-23"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Robbery",
+    "@type": [
+      "http://example.org/emorap/Track"
+    ],
+    "http://example.org/emorap/onAlbum": [
+      {
+        "@id": "http://example.org/emorap/DeathRaceForLove"
+      }
+    ],
+    "http://example.org/emorap/performedBy": [
+      {
+        "@id": "http://example.org/emorap/JuiceWRLD"
+      }
+    ],
+    "http://example.org/emorap/producedBy": [
+      {
+        "@id": "http://example.org/emorap/NickMira"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Robbery"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/GoodbyeGoodRiddance",
+    "@type": [
+      "http://example.org/emorap/Album"
+    ],
+    "http://example.org/emorap/hasGenre": [
+      {
+        "@id": "http://example.org/emorap/EmoRap"
+      }
+    ],
+    "http://example.org/emorap/releasedBy": [
+      {
+        "@id": "http://example.org/emorap/Interscope"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://example.org/emorap/JuiceWRLD"
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@value": "Goodbye & Good Riddance"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2018-05-23"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/Track",
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "https://schema.org/MusicRecording"
+      }
+    ]
+  },
+  {
+    "@id": "http://example.org/emorap/NickMira",
+    "@type": [
+      "http://example.org/emorap/Producer"
+    ],
+    "http://xmlns.com/foaf/0.1/name": [
+      {
+        "@value": "Nick Mira"
+      }
+    ]
+  }
+]

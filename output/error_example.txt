@@ -1,0 +1,12 @@
+ПОМИЛКА 1: BadSyntax - at line 8 of <>:
+виправлено, трійок: 4
+
+ПОМИЛКА 2: результатів: 0 (трек -> артист, а не навпаки)
+виправлено, результатів: 4
+  Awful Things
+  Benz Truck
+  Falling Down
+  Save That Shit
+
+ПОМИЛКА 3: Exception - Unknown namespace prefix : fooaf
+виправлено, імен у графі: 11

@@ -1,0 +1,250 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ex: <http://example.org/emorap/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Genre a rdfs:Class .
+
+ex:AllGirls a ex:Track ;
+    ex:onAlbum ex:GoodbyeGoodRiddance ;
+    ex:performedBy ex:JuiceWRLD ;
+    ex:producedBy ex:NickMira ;
+    dcterms:title "All Girls Are the Same" .
+
+ex:AwfulThings a ex:Track ;
+    ex:featuring ex:LilTracy ;
+    ex:onAlbum ex:CWWYS1 ;
+    ex:performedBy ex:LilPeep ;
+    ex:producedBy ex:Smokeasac ;
+    dcterms:title "Awful Things" .
+
+ex:BenzTruck a ex:Track ;
+    ex:onAlbum ex:CWWYS1 ;
+    ex:performedBy ex:LilPeep ;
+    dcterms:title "Benz Truck" .
+
+ex:Changes a ex:Track ;
+    ex:onAlbum ex:AlbumQuestion ;
+    ex:performedBy ex:XXXTentacion ;
+    dcterms:title "Changes" .
+
+ex:FallingDown a ex:Track ;
+    ex:featuring ex:XXXTentacion ;
+    ex:onAlbum ex:CWWYS2 ;
+    ex:performedBy ex:LilPeep ;
+    dcterms:title "Falling Down" .
+
+ex:GothBoiClique a ex:Collective ;
+    ex:basedIn ex:LosAngeles ;
+    foaf:member ex:LilPeep,
+        ex:LilTracy,
+        ex:WiccaPhase ;
+    foaf:name "GothBoiClique" .
+
+ex:JocelynFlores a ex:Track ;
+    ex:onAlbum ex:Album17 ;
+    ex:performedBy ex:XXXTentacion ;
+    ex:producedBy ex:Potsu ;
+    dcterms:title "Jocelyn Flores" .
+
+ex:LegendsNeverDie a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:Interscope ;
+    dcterms:creator ex:JuiceWRLD ;
+    dcterms:title "Legends Never Die" ;
+    schema:datePublished "2020-07-10"^^xsd:date .
+
+ex:LucidDreams a ex:Track ;
+    ex:onAlbum ex:GoodbyeGoodRiddance ;
+    ex:performedBy ex:JuiceWRLD ;
+    ex:producedBy ex:NickMira ;
+    dcterms:title "Lucid Dreams" .
+
+ex:MembersOnly a ex:Collective ;
+    foaf:member ex:XXXTentacion ;
+    foaf:name "Members Only" .
+
+ex:Revenge a ex:Track ;
+    ex:onAlbum ex:Album17 ;
+    ex:performedBy ex:XXXTentacion ;
+    dcterms:title "Revenge" .
+
+ex:Robbery a ex:Track ;
+    ex:onAlbum ex:DeathRaceForLove ;
+    ex:performedBy ex:JuiceWRLD ;
+    ex:producedBy ex:NickMira ;
+    dcterms:title "Robbery" .
+
+ex:SAD a ex:Track ;
+    ex:onAlbum ex:AlbumQuestion ;
+    ex:performedBy ex:XXXTentacion ;
+    dcterms:title "SAD!" .
+
+ex:SaveThatShit a ex:Track ;
+    ex:onAlbum ex:CWWYS1 ;
+    ex:performedBy ex:LilPeep ;
+    ex:producedBy ex:Smokeasac ;
+    dcterms:title "Save That Shit" .
+
+ex:TakingAWalk a ex:Track ;
+    ex:onAlbum ex:LifesATrip ;
+    ex:performedBy ex:TrippieRedd ;
+    dcterms:title "Taking a Walk" .
+
+ex:bornIn rdfs:range ex:City .
+
+ex:featuring rdfs:subPropertyOf ex:performedBy .
+
+ex:onAlbum rdfs:domain ex:Track ;
+    rdfs:range ex:Album .
+
+ex:producedBy rdfs:range ex:Producer .
+
+ex:releasedBy rdfs:range ex:Label .
+
+ex:AWAL a ex:Label ;
+    rdfs:label "AWAL" .
+
+ex:Allentown a ex:City ;
+    rdfs:label "Allentown" .
+
+ex:CWWYS2 a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:Columbia ;
+    dcterms:creator ex:LilPeep ;
+    dcterms:title "Come Over When You're Sober, Pt. 2" ;
+    schema:datePublished "2018-11-09"^^xsd:date .
+
+ex:Canton a ex:City ;
+    rdfs:label "Canton" .
+
+ex:Chicago a ex:City ;
+    rdfs:label "Chicago" .
+
+ex:Columbia a ex:Label ;
+    rdfs:label "Columbia Records" .
+
+ex:DeathRaceForLove a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:Interscope ;
+    dcterms:creator ex:JuiceWRLD ;
+    dcterms:title "Death Race for Love" ;
+    schema:datePublished "2019-03-08"^^xsd:date .
+
+ex:LifesATrip a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:TenThousand ;
+    dcterms:creator ex:TrippieRedd ;
+    dcterms:title "Life's a Trip" ;
+    schema:datePublished "2018-08-10"^^xsd:date .
+
+ex:LosAngeles a ex:City ;
+    rdfs:label "Los Angeles" .
+
+ex:Plantation a ex:City ;
+    rdfs:label "Plantation" .
+
+ex:Potsu a ex:Producer ;
+    foaf:name "Potsu" .
+
+ex:TenThousand a ex:Label ;
+    rdfs:label "TenThousand Projects" .
+
+ex:WiccaPhase a ex:Artist ;
+    ex:hasGenre ex:CloudRap ;
+    foaf:name "Wicca Phase Springs Eternal" .
+
+ex:performedBy rdfs:domain ex:Track ;
+    rdfs:range ex:Artist .
+
+ex:Album17 a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:Empire ;
+    dcterms:creator ex:XXXTentacion ;
+    dcterms:title "17" ;
+    schema:datePublished "2017-08-25"^^xsd:date .
+
+ex:AlbumQuestion a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:Empire ;
+    dcterms:creator ex:XXXTentacion ;
+    dcterms:title "?" ;
+    schema:datePublished "2018-03-16"^^xsd:date .
+
+ex:Collective rdfs:subClassOf foaf:Group .
+
+ex:Empire a ex:Label ;
+    rdfs:label "Empire Distribution" .
+
+ex:GoodbyeGoodRiddance a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:Interscope ;
+    dcterms:creator ex:JuiceWRLD ;
+    dcterms:title "Goodbye & Good Riddance" ;
+    schema:datePublished "2018-05-23"^^xsd:date .
+
+ex:LilTracy a ex:Artist ;
+    ex:hasGenre ex:CloudRap ;
+    foaf:name "Lil Tracy" .
+
+ex:Smokeasac a ex:Producer ;
+    foaf:name "Smokeasac" .
+
+ex:TrippieRedd a ex:Artist ;
+    ex:bornIn ex:Canton ;
+    ex:hasGenre ex:EmoRap ;
+    foaf:name "Trippie Redd" ;
+    schema:birthDate "1999-06-18"^^xsd:date .
+
+ex:CWWYS1 a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:AWAL ;
+    dcterms:creator ex:LilPeep ;
+    dcterms:title "Come Over When You're Sober, Pt. 1" ;
+    schema:datePublished "2017-08-15"^^xsd:date .
+
+ex:CloudRap a ex:Genre ;
+    rdfs:label "Cloud rap" .
+
+ex:Interscope a ex:Label ;
+    rdfs:label "Interscope Records" .
+
+ex:NickMira a ex:Producer ;
+    foaf:name "Nick Mira" .
+
+ex:Producer rdfs:subClassOf foaf:Person .
+
+ex:City rdfs:subClassOf schema:City .
+
+ex:JuiceWRLD a ex:Artist ;
+    ex:bornIn ex:Chicago ;
+    ex:hasGenre ex:EmoRap ;
+    foaf:name "Juice WRLD" ;
+    schema:birthDate "1998-12-02"^^xsd:date .
+
+ex:Label rdfs:subClassOf schema:Organization .
+
+ex:Artist rdfs:subClassOf foaf:Person .
+
+ex:LilPeep a ex:Artist ;
+    ex:bornIn ex:Allentown ;
+    ex:hasGenre ex:CloudRap,
+        ex:EmoRap ;
+    foaf:name "Lil Peep" ;
+    schema:birthDate "1996-11-01"^^xsd:date .
+
+ex:XXXTentacion a ex:Artist ;
+    ex:bornIn ex:Plantation ;
+    ex:hasGenre ex:EmoRap ;
+    foaf:name "XXXTentacion" ;
+    schema:birthDate "1998-01-23"^^xsd:date .
+
+ex:Album rdfs:subClassOf schema:MusicAlbum .
+
+ex:EmoRap a ex:Genre ;
+    rdfs:label "Emo rap" .
+
+ex:Track rdfs:subClassOf schema:MusicRecording .
+
