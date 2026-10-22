@@ -1,194 +1,194 @@
-<http://example.org/emorap/onAlbum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/emorap/Track> .
-<http://example.org/emorap/JocelynFlores> <http://example.org/emorap/producedBy> <http://example.org/emorap/Potsu> .
-<http://example.org/emorap/GoodbyeGoodRiddance> <http://purl.org/dc/terms/title> "Goodbye & Good Riddance" .
-<http://example.org/emorap/WiccaPhase> <http://xmlns.com/foaf/0.1/name> "Wicca Phase Springs Eternal" .
-<http://example.org/emorap/CloudRap> <http://www.w3.org/2000/01/rdf-schema#label> "Cloud rap" .
-<http://example.org/emorap/AwfulThings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/LifesATrip> <https://schema.org/datePublished> "2018-08-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/onAlbum> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Album> .
-<http://example.org/emorap/DeathRaceForLove> <https://schema.org/datePublished> "2019-03-08"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/Changes> <http://example.org/emorap/onAlbum> <http://example.org/emorap/AlbumQuestion> .
-<http://example.org/emorap/SaveThatShit> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
-<http://example.org/emorap/Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
-<http://example.org/emorap/Album17> <http://purl.org/dc/terms/creator> <http://example.org/emorap/XXXTentacion> .
-<http://example.org/emorap/TrippieRedd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
-<http://example.org/emorap/performedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Artist> .
-<http://example.org/emorap/LilPeep> <https://schema.org/birthDate> "1996-11-01"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/AwfulThings> <http://example.org/emorap/producedBy> <http://example.org/emorap/Smokeasac> .
-<http://example.org/emorap/SAD> <http://example.org/emorap/onAlbum> <http://example.org/emorap/AlbumQuestion> .
-<http://example.org/emorap/TenThousand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
-<http://example.org/emorap/LucidDreams> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
-<http://example.org/emorap/WishingWell> <http://purl.org/dc/terms/title> "Wishing Well" .
-<http://example.org/emorap/CWWYS1> <http://purl.org/dc/terms/title> "Come Over When You're Sober, Pt. 1" .
-<http://example.org/emorap/Righteous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/LucidDreams> <http://example.org/emorap/producedBy> <http://example.org/emorap/NickMira> .
-<http://example.org/emorap/Changes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/LegendsNeverDie> <http://purl.org/dc/terms/title> "Legends Never Die" .
-<http://example.org/emorap/CWWYS1> <http://example.org/emorap/releasedBy> <http://example.org/emorap/AWAL> .
-<http://example.org/emorap/LifesATrip> <http://purl.org/dc/terms/creator> <http://example.org/emorap/TrippieRedd> .
-<http://example.org/emorap/releasedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Label> .
-<http://example.org/emorap/AWAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
-<http://example.org/emorap/GoodbyeGoodRiddance> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/SAD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/CWWYS1> <https://schema.org/datePublished> "2017-08-15"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/AWAL> <http://www.w3.org/2000/01/rdf-schema#label> "AWAL" .
-<http://example.org/emorap/MembersOnly> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/XXXTentacion> .
-<http://example.org/emorap/Robbery> <http://purl.org/dc/terms/title> "Robbery" .
+<http://example.org/emorap/MembersOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Collective> .
 <http://example.org/emorap/LosAngeles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
+<http://example.org/emorap/LegendsNeverDie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/Album17> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/Righteous> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/LifesATrip> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/AllGirls> <http://example.org/emorap/producedBy> <http://example.org/emorap/NickMira> .
+<http://example.org/emorap/Columbia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
+<http://example.org/emorap/Empire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
+<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/LilPeep> .
 <http://example.org/emorap/AlbumQuestion> <https://schema.org/datePublished> "2018-03-16"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/XXXTentacion> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/AlbumQuestion> <http://purl.org/dc/terms/title> "?" .
+<http://example.org/emorap/BenzTruck> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS1> .
+<http://example.org/emorap/JuiceWRLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
+<http://example.org/emorap/MembersOnly> <http://xmlns.com/foaf/0.1/name> "Members Only" .
+<http://example.org/emorap/LilPeep> <https://schema.org/birthDate> "1996-11-01"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/TenThousand> <http://www.w3.org/2000/01/rdf-schema#label> "TenThousand Projects" .
+<http://example.org/emorap/SaveThatShit> <http://example.org/emorap/producedBy> <http://example.org/emorap/Smokeasac> .
+<http://example.org/emorap/AlbumQuestion> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Empire> .
+<http://example.org/emorap/Robbery> <http://example.org/emorap/onAlbum> <http://example.org/emorap/DeathRaceForLove> .
+<http://example.org/emorap/CWWYS2> <https://schema.org/datePublished> "2018-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/FallingDown> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
+<http://example.org/emorap/bornIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/City> .
+<http://example.org/emorap/CWWYS2> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Columbia> .
+<http://example.org/emorap/LilTracy> <http://xmlns.com/foaf/0.1/name> "Lil Tracy" .
+<http://example.org/emorap/LilPeep> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/Potsu> <http://xmlns.com/foaf/0.1/name> "Potsu" .
+<http://example.org/emorap/GoodbyeGoodRiddance> <https://schema.org/datePublished> "2018-05-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/Potsu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Producer> .
+<http://example.org/emorap/JocelynFlores> <http://purl.org/dc/terms/title> "Jocelyn Flores" .
+<http://example.org/emorap/LilTracy> <http://example.org/emorap/hasGenre> <http://example.org/emorap/CloudRap> .
+<http://example.org/emorap/Changes> <http://purl.org/dc/terms/title> "Changes" .
+<http://example.org/emorap/LucidDreams> <http://example.org/emorap/producedBy> <http://example.org/emorap/NickMira> .
+<http://example.org/emorap/GoodbyeGoodRiddance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/AwfulThings> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
+<http://example.org/emorap/GoodbyeGoodRiddance> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/Album17> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Empire> .
+<http://example.org/emorap/SAD> <http://purl.org/dc/terms/title> "SAD!" .
+<http://example.org/emorap/LilPeep> <http://xmlns.com/foaf/0.1/name> "Lil Peep" .
+<http://example.org/emorap/SAD> <http://example.org/emorap/onAlbum> <http://example.org/emorap/AlbumQuestion> .
+<http://example.org/emorap/FallingDown> <http://example.org/emorap/featuring> <http://example.org/emorap/XXXTentacion> .
+<http://example.org/emorap/Empire> <http://www.w3.org/2000/01/rdf-schema#label> "Empire Distribution" .
+<http://example.org/emorap/Collective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Group> .
+<http://example.org/emorap/Columbia> <http://www.w3.org/2000/01/rdf-schema#label> "Columbia Records" .
+<http://example.org/emorap/WishingWell> <http://purl.org/dc/terms/title> "Wishing Well" .
+<http://example.org/emorap/AllGirls> <http://purl.org/dc/terms/title> "All Girls Are the Same" .
+<http://example.org/emorap/LifesATrip> <https://schema.org/datePublished> "2018-08-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/name> "GothBoiClique" .
+<http://example.org/emorap/FallingDown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/GoodbyeGoodRiddance> <http://purl.org/dc/terms/title> "Goodbye & Good Riddance" .
+<http://example.org/emorap/onAlbum> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Album> .
+<http://example.org/emorap/FallingDown> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS2> .
+<http://example.org/emorap/Plantation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
+<http://example.org/emorap/LucidDreams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/LilPeep> <http://example.org/emorap/hasGenre> <http://example.org/emorap/CloudRap> .
+<http://example.org/emorap/JuiceWRLD> <https://schema.org/birthDate> "1998-12-02"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/Album17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
 <http://example.org/emorap/CWWYS2> <http://purl.org/dc/terms/creator> <http://example.org/emorap/LilPeep> .
-<http://example.org/emorap/NickMira> <http://xmlns.com/foaf/0.1/name> "Nick Mira" .
-<http://example.org/emorap/LucidDreams> <http://purl.org/dc/terms/title> "Lucid Dreams" .
+<http://example.org/emorap/WiccaPhase> <http://xmlns.com/foaf/0.1/name> "Wicca Phase Springs Eternal" .
+<http://example.org/emorap/onAlbum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/emorap/Track> .
+<http://example.org/emorap/SAD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/AWAL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
+<http://example.org/emorap/Chicago> <http://www.w3.org/2000/01/rdf-schema#label> "Chicago" .
+<http://example.org/emorap/LilPeep> <http://example.org/emorap/bornIn> <http://example.org/emorap/Allentown> .
+<http://example.org/emorap/DeathRaceForLove> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Interscope> .
+<http://example.org/emorap/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://example.org/emorap/LegendsNeverDie> <https://schema.org/datePublished> "2020-07-10"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/Track> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/MusicRecording> .
+<http://example.org/emorap/CWWYS1> <https://schema.org/datePublished> "2017-08-15"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/Righteous> <http://purl.org/dc/terms/title> "Righteous" .
+<http://example.org/emorap/BenzTruck> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
+<http://example.org/emorap/producedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Producer> .
+<http://example.org/emorap/CWWYS1> <http://purl.org/dc/terms/creator> <http://example.org/emorap/LilPeep> .
+<http://example.org/emorap/SAD> <http://example.org/emorap/performedBy> <http://example.org/emorap/XXXTentacion> .
+<http://example.org/emorap/JocelynFlores> <http://example.org/emorap/onAlbum> <http://example.org/emorap/Album17> .
+<http://example.org/emorap/Revenge> <http://example.org/emorap/onAlbum> <http://example.org/emorap/Album17> .
+<http://example.org/emorap/LilPeep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
+<http://example.org/emorap/AwfulThings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/SaveThatShit> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS1> .
+<http://example.org/emorap/LegendsNeverDie> <http://purl.org/dc/terms/title> "Legends Never Die" .
+<http://example.org/emorap/Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/emorap/Plantation> <http://www.w3.org/2000/01/rdf-schema#label> "Plantation" .
+<http://example.org/emorap/LegendsNeverDie> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Interscope> .
+<http://example.org/emorap/Smokeasac> <http://xmlns.com/foaf/0.1/name> "Smokeasac" .
+<http://example.org/emorap/NickMira> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Producer> .
+<http://example.org/emorap/WishingWell> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/CloudRap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Genre> .
+<http://example.org/emorap/TakingAWalk> <http://purl.org/dc/terms/title> "Taking a Walk" .
+<http://example.org/emorap/BenzTruck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/LosAngeles> <http://www.w3.org/2000/01/rdf-schema#label> "Los Angeles" .
+<http://example.org/emorap/TrippieRedd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
+<http://example.org/emorap/TenThousand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
+<http://example.org/emorap/Album17> <https://schema.org/datePublished> "2017-08-25"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/GoodbyeGoodRiddance> <http://purl.org/dc/terms/creator> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/performedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Artist> .
+<http://example.org/emorap/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/City> .
+<http://example.org/emorap/Canton> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
+<http://example.org/emorap/CWWYS1> <http://example.org/emorap/releasedBy> <http://example.org/emorap/AWAL> .
+<http://example.org/emorap/LegendsNeverDie> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton" .
+<http://example.org/emorap/Changes> <http://example.org/emorap/onAlbum> <http://example.org/emorap/AlbumQuestion> .
+<http://example.org/emorap/GothBoiClique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Collective> .
+<http://example.org/emorap/DeathRaceForLove> <https://schema.org/datePublished> "2019-03-08"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/LifesATrip> <http://purl.org/dc/terms/creator> <http://example.org/emorap/TrippieRedd> .
+<http://example.org/emorap/Revenge> <http://purl.org/dc/terms/title> "Revenge" .
+<http://example.org/emorap/EmoRap> <http://www.w3.org/2000/01/rdf-schema#label> "Emo rap" .
+<http://example.org/emorap/JocelynFlores> <http://example.org/emorap/producedBy> <http://example.org/emorap/Potsu> .
+<http://example.org/emorap/CloudRap> <http://www.w3.org/2000/01/rdf-schema#label> "Cloud rap" .
+<http://example.org/emorap/SaveThatShit> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
+<http://example.org/emorap/Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+<http://example.org/emorap/XXXTentacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
+<http://example.org/emorap/TrippieRedd> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/CWWYS2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/Righteous> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/WiccaPhase> .
+<http://example.org/emorap/Righteous> <http://example.org/emorap/onAlbum> <http://example.org/emorap/LegendsNeverDie> .
+<http://example.org/emorap/Smokeasac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Producer> .
+<http://example.org/emorap/WiccaPhase> <http://example.org/emorap/hasGenre> <http://example.org/emorap/CloudRap> .
+<http://example.org/emorap/EmoRap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Genre> .
+<http://example.org/emorap/Album> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/MusicAlbum> .
+<http://example.org/emorap/featuring> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/emorap/performedBy> .
+<http://example.org/emorap/Allentown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
+<http://example.org/emorap/CWWYS2> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/DeathRaceForLove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/CWWYS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/WiccaPhase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
+<http://example.org/emorap/JuiceWRLD> <http://example.org/emorap/bornIn> <http://example.org/emorap/Chicago> .
+<http://example.org/emorap/AllGirls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/Changes> <http://example.org/emorap/performedBy> <http://example.org/emorap/XXXTentacion> .
+<http://example.org/emorap/WishingWell> <http://example.org/emorap/onAlbum> <http://example.org/emorap/LegendsNeverDie> .
+<http://example.org/emorap/DeathRaceForLove> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/CWWYS1> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/DeathRaceForLove> <http://purl.org/dc/terms/creator> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/XXXTentacion> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/AwfulThings> <http://example.org/emorap/producedBy> <http://example.org/emorap/Smokeasac> .
+<http://example.org/emorap/LucidDreams> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/Label> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> .
 <http://example.org/emorap/Revenge> <http://example.org/emorap/performedBy> <http://example.org/emorap/XXXTentacion> .
 <http://example.org/emorap/Allentown> <http://www.w3.org/2000/01/rdf-schema#label> "Allentown" .
-<http://example.org/emorap/Album17> <http://purl.org/dc/terms/title> "17" .
-<http://example.org/emorap/XXXTentacion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
-<http://example.org/emorap/LilPeep> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/CWWYS2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
-<http://example.org/emorap/CWWYS2> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Columbia> .
-<http://example.org/emorap/WiccaPhase> <http://example.org/emorap/hasGenre> <http://example.org/emorap/CloudRap> .
-<http://example.org/emorap/GoodbyeGoodRiddance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
-<http://example.org/emorap/Producer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
-<http://example.org/emorap/TrippieRedd> <http://example.org/emorap/bornIn> <http://example.org/emorap/Canton> .
-<http://example.org/emorap/Smokeasac> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Producer> .
-<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/LilPeep> .
-<http://example.org/emorap/featuring> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://example.org/emorap/performedBy> .
-<http://example.org/emorap/Changes> <http://purl.org/dc/terms/title> "Changes" .
-<http://example.org/emorap/MembersOnly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Collective> .
-<http://example.org/emorap/Righteous> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
-<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/LilTracy> .
-<http://example.org/emorap/DeathRaceForLove> <http://purl.org/dc/terms/title> "Death Race for Love" .
-<http://example.org/emorap/LucidDreams> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/XXXTentacion> <http://example.org/emorap/bornIn> <http://example.org/emorap/Plantation> .
-<http://example.org/emorap/SaveThatShit> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS1> .
-<http://example.org/emorap/TrippieRedd> <http://xmlns.com/foaf/0.1/name> "Trippie Redd" .
-<http://example.org/emorap/TenThousand> <http://www.w3.org/2000/01/rdf-schema#label> "TenThousand Projects" .
-<http://example.org/emorap/WiccaPhase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
-<http://example.org/emorap/LifesATrip> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/TakingAWalk> <http://example.org/emorap/onAlbum> <http://example.org/emorap/LifesATrip> .
-<http://example.org/emorap/Revenge> <http://purl.org/dc/terms/title> "Revenge" .
-<http://example.org/emorap/AllGirls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/performedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/emorap/Track> .
-<http://example.org/emorap/AllGirls> <http://example.org/emorap/onAlbum> <http://example.org/emorap/GoodbyeGoodRiddance> .
-<http://example.org/emorap/LilPeep> <http://example.org/emorap/bornIn> <http://example.org/emorap/Allentown> .
-<http://example.org/emorap/AwfulThings> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS1> .
-<http://example.org/emorap/Robbery> <http://example.org/emorap/onAlbum> <http://example.org/emorap/DeathRaceForLove> .
-<http://example.org/emorap/EmoRap> <http://www.w3.org/2000/01/rdf-schema#label> "Emo rap" .
-<http://example.org/emorap/AwfulThings> <http://purl.org/dc/terms/title> "Awful Things" .
-<http://example.org/emorap/City> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/City> .
+<http://example.org/emorap/MembersOnly> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/XXXTentacion> .
 <http://example.org/emorap/XXXTentacion> <http://xmlns.com/foaf/0.1/name> "XXXTentacion" .
-<http://example.org/emorap/CloudRap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Genre> .
-<http://example.org/emorap/CWWYS1> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/Album17> <https://schema.org/datePublished> "2017-08-25"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/AlbumQuestion> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/Righteous> <http://example.org/emorap/onAlbum> <http://example.org/emorap/LegendsNeverDie> .
-<http://example.org/emorap/LosAngeles> <http://www.w3.org/2000/01/rdf-schema#label> "Los Angeles" .
-<http://example.org/emorap/FallingDown> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
-<http://example.org/emorap/Smokeasac> <http://xmlns.com/foaf/0.1/name> "Smokeasac" .
-<http://example.org/emorap/LifesATrip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
-<http://example.org/emorap/Empire> <http://www.w3.org/2000/01/rdf-schema#label> "Empire Distribution" .
-<http://example.org/emorap/Potsu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Producer> .
-<http://example.org/emorap/JocelynFlores> <http://example.org/emorap/performedBy> <http://example.org/emorap/XXXTentacion> .
-<http://example.org/emorap/LilPeep> <http://example.org/emorap/hasGenre> <http://example.org/emorap/CloudRap> .
-<http://example.org/emorap/Righteous> <http://purl.org/dc/terms/title> "Righteous" .
-<http://example.org/emorap/JocelynFlores> <http://purl.org/dc/terms/title> "Jocelyn Flores" .
-<http://example.org/emorap/FallingDown> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS2> .
-<http://example.org/emorap/MembersOnly> <http://xmlns.com/foaf/0.1/name> "Members Only" .
-<http://example.org/emorap/Robbery> <http://example.org/emorap/producedBy> <http://example.org/emorap/NickMira> .
-<http://example.org/emorap/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
-<http://example.org/emorap/AllGirls> <http://purl.org/dc/terms/title> "All Girls Are the Same" .
-<http://example.org/emorap/NickMira> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Producer> .
-<http://example.org/emorap/CWWYS1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
-<http://example.org/emorap/JuiceWRLD> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/LilPeep> <http://xmlns.com/foaf/0.1/name> "Lil Peep" .
-<http://example.org/emorap/JuiceWRLD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
-<http://example.org/emorap/LilPeep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
-<http://example.org/emorap/TrippieRedd> <https://schema.org/birthDate> "1999-06-18"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/DeathRaceForLove> <http://purl.org/dc/terms/creator> <http://example.org/emorap/JuiceWRLD> .
-<http://example.org/emorap/Changes> <http://example.org/emorap/performedBy> <http://example.org/emorap/XXXTentacion> .
-<http://example.org/emorap/AwfulThings> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
-<http://example.org/emorap/AlbumQuestion> <http://purl.org/dc/terms/creator> <http://example.org/emorap/XXXTentacion> .
-<http://example.org/emorap/LegendsNeverDie> <https://schema.org/datePublished> "2020-07-10"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/LifesATrip> <http://example.org/emorap/releasedBy> <http://example.org/emorap/TenThousand> .
-<http://example.org/emorap/SAD> <http://example.org/emorap/performedBy> <http://example.org/emorap/XXXTentacion> .
-<http://example.org/emorap/FallingDown> <http://purl.org/dc/terms/title> "Falling Down" .
-<http://example.org/emorap/GothBoiClique> <http://example.org/emorap/basedIn> <http://example.org/emorap/LosAngeles> .
-<http://example.org/emorap/BenzTruck> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/DeathRaceForLove> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
-<http://example.org/emorap/LegendsNeverDie> <http://purl.org/dc/terms/creator> <http://example.org/emorap/JuiceWRLD> .
-<http://example.org/emorap/GoodbyeGoodRiddance> <https://schema.org/datePublished> "2018-05-23"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/TakingAWalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/JuiceWRLD> <https://schema.org/birthDate> "1998-12-02"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/Chicago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
-<http://example.org/emorap/DeathRaceForLove> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Interscope> .
-<http://example.org/emorap/CWWYS2> <https://schema.org/datePublished> "2018-11-09"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/AllGirls> <http://example.org/emorap/producedBy> <http://example.org/emorap/NickMira> .
-<http://example.org/emorap/Empire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
-<http://example.org/emorap/WishingWell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/Columbia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
-<http://example.org/emorap/Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
-<http://example.org/emorap/JocelynFlores> <http://example.org/emorap/onAlbum> <http://example.org/emorap/Album17> .
-<http://example.org/emorap/LegendsNeverDie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
-<http://example.org/emorap/GothBoiClique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Collective> .
-<http://example.org/emorap/Robbery> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
-<http://example.org/emorap/Canton> <http://www.w3.org/2000/01/rdf-schema#label> "Canton" .
 <http://example.org/emorap/SaveThatShit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/LilTracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
-<http://example.org/emorap/EmoRap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Genre> .
-<http://example.org/emorap/LegendsNeverDie> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Interscope> .
-<http://example.org/emorap/Revenge> <http://example.org/emorap/onAlbum> <http://example.org/emorap/Album17> .
-<http://example.org/emorap/Columbia> <http://www.w3.org/2000/01/rdf-schema#label> "Columbia Records" .
-<http://example.org/emorap/Chicago> <http://www.w3.org/2000/01/rdf-schema#label> "Chicago" .
-<http://example.org/emorap/Robbery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/Collective> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Group> .
-<http://example.org/emorap/Allentown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
-<http://example.org/emorap/CWWYS1> <http://purl.org/dc/terms/creator> <http://example.org/emorap/LilPeep> .
-<http://example.org/emorap/SaveThatShit> <http://example.org/emorap/producedBy> <http://example.org/emorap/Smokeasac> .
-<http://example.org/emorap/XXXTentacion> <https://schema.org/birthDate> "1998-01-23"^^<http://www.w3.org/2001/XMLSchema#date> .
-<http://example.org/emorap/FallingDown> <http://example.org/emorap/featuring> <http://example.org/emorap/XXXTentacion> .
-<http://example.org/emorap/Label> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/Organization> .
-<http://example.org/emorap/Album> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/MusicAlbum> .
-<http://example.org/emorap/Plantation> <http://www.w3.org/2000/01/rdf-schema#label> "Plantation" .
-<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/name> "GothBoiClique" .
+<http://example.org/emorap/Robbery> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/LilTracy> .
+<http://example.org/emorap/LifesATrip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/performedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://example.org/emorap/Track> .
 <http://example.org/emorap/LifesATrip> <http://purl.org/dc/terms/title> "Life's a Trip" .
-<http://example.org/emorap/LucidDreams> <http://example.org/emorap/onAlbum> <http://example.org/emorap/GoodbyeGoodRiddance> .
-<http://example.org/emorap/Plantation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
-<http://example.org/emorap/SAD> <http://purl.org/dc/terms/title> "SAD!" .
-<http://example.org/emorap/TakingAWalk> <http://purl.org/dc/terms/title> "Taking a Walk" .
-<http://example.org/emorap/Potsu> <http://xmlns.com/foaf/0.1/name> "Potsu" .
-<http://example.org/emorap/AlbumQuestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
-<http://example.org/emorap/producedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Producer> .
-<http://example.org/emorap/AlbumQuestion> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Empire> .
 <http://example.org/emorap/GoodbyeGoodRiddance> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Interscope> .
-<http://example.org/emorap/Interscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
-<http://example.org/emorap/bornIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/City> .
-<http://example.org/emorap/DeathRaceForLove> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/Interscope> <http://www.w3.org/2000/01/rdf-schema#label> "Interscope Records" .
-<http://example.org/emorap/JocelynFlores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/TrippieRedd> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/AwfulThings> <http://example.org/emorap/featuring> <http://example.org/emorap/LilTracy> .
-<http://example.org/emorap/GothBoiClique> <http://xmlns.com/foaf/0.1/member> <http://example.org/emorap/WiccaPhase> .
-<http://example.org/emorap/Revenge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/WishingWell> <http://example.org/emorap/onAlbum> <http://example.org/emorap/LegendsNeverDie> .
-<http://example.org/emorap/LegendsNeverDie> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/CWWYS2> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/LilTracy> <http://xmlns.com/foaf/0.1/name> "Lil Tracy" .
-<http://example.org/emorap/SaveThatShit> <http://purl.org/dc/terms/title> "Save That Shit" .
-<http://example.org/emorap/BenzTruck> <http://example.org/emorap/performedBy> <http://example.org/emorap/LilPeep> .
-<http://example.org/emorap/AllGirls> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
-<http://example.org/emorap/Album17> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
-<http://example.org/emorap/FallingDown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
-<http://example.org/emorap/LilTracy> <http://example.org/emorap/hasGenre> <http://example.org/emorap/CloudRap> .
-<http://example.org/emorap/BenzTruck> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS1> .
-<http://example.org/emorap/JuiceWRLD> <http://xmlns.com/foaf/0.1/name> "Juice WRLD" .
-<http://example.org/emorap/GoodbyeGoodRiddance> <http://purl.org/dc/terms/creator> <http://example.org/emorap/JuiceWRLD> .
-<http://example.org/emorap/JuiceWRLD> <http://example.org/emorap/bornIn> <http://example.org/emorap/Chicago> .
+<http://example.org/emorap/LegendsNeverDie> <http://purl.org/dc/terms/creator> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/Robbery> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/Album17> <http://purl.org/dc/terms/title> "17" .
+<http://example.org/emorap/AlbumQuestion> <http://purl.org/dc/terms/creator> <http://example.org/emorap/XXXTentacion> .
 <http://example.org/emorap/TakingAWalk> <http://example.org/emorap/performedBy> <http://example.org/emorap/TrippieRedd> .
-<http://example.org/emorap/WishingWell> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/JuiceWRLD> <http://xmlns.com/foaf/0.1/name> "Juice WRLD" .
+<http://example.org/emorap/AwfulThings> <http://example.org/emorap/featuring> <http://example.org/emorap/LilTracy> .
+<http://example.org/emorap/AllGirls> <http://example.org/emorap/onAlbum> <http://example.org/emorap/GoodbyeGoodRiddance> .
+<http://example.org/emorap/CWWYS1> <http://purl.org/dc/terms/title> "Come Over When You're Sober, Pt. 1" .
+<http://example.org/emorap/XXXTentacion> <https://schema.org/birthDate> "1998-01-23"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/TakingAWalk> <http://example.org/emorap/onAlbum> <http://example.org/emorap/LifesATrip> .
+<http://example.org/emorap/AllGirls> <http://example.org/emorap/performedBy> <http://example.org/emorap/JuiceWRLD> .
+<http://example.org/emorap/releasedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://example.org/emorap/Label> .
+<http://example.org/emorap/AlbumQuestion> <http://purl.org/dc/terms/title> "?" .
+<http://example.org/emorap/TrippieRedd> <http://example.org/emorap/bornIn> <http://example.org/emorap/Canton> .
+<http://example.org/emorap/JocelynFlores> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/FallingDown> <http://purl.org/dc/terms/title> "Falling Down" .
+<http://example.org/emorap/LifesATrip> <http://example.org/emorap/releasedBy> <http://example.org/emorap/TenThousand> .
+<http://example.org/emorap/AlbumQuestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/TrippieRedd> <http://xmlns.com/foaf/0.1/name> "Trippie Redd" .
+<http://example.org/emorap/Interscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Label> .
+<http://example.org/emorap/Revenge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
 <http://example.org/emorap/BenzTruck> <http://purl.org/dc/terms/title> "Benz Truck" .
-<http://example.org/emorap/Track> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://schema.org/MusicRecording> .
+<http://example.org/emorap/TakingAWalk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/Album17> <http://purl.org/dc/terms/creator> <http://example.org/emorap/XXXTentacion> .
+<http://example.org/emorap/NickMira> <http://xmlns.com/foaf/0.1/name> "Nick Mira" .
+<http://example.org/emorap/Changes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/JuiceWRLD> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/AwfulThings> <http://purl.org/dc/terms/title> "Awful Things" .
+<http://example.org/emorap/LilTracy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Artist> .
+<http://example.org/emorap/JocelynFlores> <http://example.org/emorap/performedBy> <http://example.org/emorap/XXXTentacion> .
+<http://example.org/emorap/AlbumQuestion> <http://example.org/emorap/hasGenre> <http://example.org/emorap/EmoRap> .
+<http://example.org/emorap/Robbery> <http://purl.org/dc/terms/title> "Robbery" .
+<http://example.org/emorap/SaveThatShit> <http://purl.org/dc/terms/title> "Save That Shit" .
+<http://example.org/emorap/AWAL> <http://www.w3.org/2000/01/rdf-schema#label> "AWAL" .
+<http://example.org/emorap/LucidDreams> <http://example.org/emorap/onAlbum> <http://example.org/emorap/GoodbyeGoodRiddance> .
+<http://example.org/emorap/DeathRaceForLove> <http://purl.org/dc/terms/title> "Death Race for Love" .
+<http://example.org/emorap/Robbery> <http://example.org/emorap/producedBy> <http://example.org/emorap/NickMira> .
+<http://example.org/emorap/TrippieRedd> <https://schema.org/birthDate> "1999-06-18"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://example.org/emorap/WishingWell> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Track> .
+<http://example.org/emorap/XXXTentacion> <http://example.org/emorap/bornIn> <http://example.org/emorap/Plantation> .
+<http://example.org/emorap/GothBoiClique> <http://example.org/emorap/basedIn> <http://example.org/emorap/LosAngeles> .
+<http://example.org/emorap/AwfulThings> <http://example.org/emorap/onAlbum> <http://example.org/emorap/CWWYS1> .
+<http://example.org/emorap/Chicago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/City> .
 <http://example.org/emorap/CWWYS2> <http://purl.org/dc/terms/title> "Come Over When You're Sober, Pt. 2" .
-<http://example.org/emorap/Album17> <http://example.org/emorap/releasedBy> <http://example.org/emorap/Empire> .
-<http://example.org/emorap/Album17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/emorap/Album> .
+<http://example.org/emorap/Interscope> <http://www.w3.org/2000/01/rdf-schema#label> "Interscope Records" .
+<http://example.org/emorap/LucidDreams> <http://purl.org/dc/terms/title> "Lucid Dreams" .
