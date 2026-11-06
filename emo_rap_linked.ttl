@@ -1,8 +1,10 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ex: <http://example.org/emorap/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 ex:Genre a rdfs:Class .
@@ -38,6 +40,7 @@ ex:FallingDown a ex:Track ;
 
 ex:GothBoiClique a ex:Collective ;
     ex:basedIn ex:LosAngeles ;
+    owl:sameAs wd:Q78248638 ;
     foaf:member ex:LilPeep,
         ex:LilTracy,
         ex:WiccaPhase ;
@@ -48,13 +51,6 @@ ex:JocelynFlores a ex:Track ;
     ex:performedBy ex:XXXTentacion ;
     ex:producedBy ex:Potsu ;
     dcterms:title "Jocelyn Flores" .
-
-ex:LegendsNeverDie a ex:Album ;
-    ex:hasGenre ex:EmoRap ;
-    ex:releasedBy ex:Interscope ;
-    dcterms:creator ex:JuiceWRLD ;
-    dcterms:title "Legends Never Die" ;
-    schema:datePublished "2020-07-10"^^xsd:date .
 
 ex:LucidDreams a ex:Track ;
     ex:onAlbum ex:GoodbyeGoodRiddance ;
@@ -70,6 +66,11 @@ ex:Revenge a ex:Track ;
     ex:onAlbum ex:Album17 ;
     ex:performedBy ex:XXXTentacion ;
     dcterms:title "Revenge" .
+
+ex:Righteous a ex:Track ;
+    ex:onAlbum ex:LegendsNeverDie ;
+    ex:performedBy ex:JuiceWRLD ;
+    dcterms:title "Righteous" .
 
 ex:Robbery a ex:Track ;
     ex:onAlbum ex:DeathRaceForLove ;
@@ -92,6 +93,11 @@ ex:TakingAWalk a ex:Track ;
     ex:onAlbum ex:LifesATrip ;
     ex:performedBy ex:TrippieRedd ;
     dcterms:title "Taking a Walk" .
+
+ex:WishingWell a ex:Track ;
+    ex:onAlbum ex:LegendsNeverDie ;
+    ex:performedBy ex:JuiceWRLD ;
+    dcterms:title "Wishing Well" .
 
 ex:bornIn rdfs:range ex:City .
 
@@ -164,6 +170,7 @@ ex:Album17 a ex:Album ;
     ex:releasedBy ex:Empire ;
     dcterms:creator ex:XXXTentacion ;
     dcterms:title "17" ;
+    owl:sameAs wd:Q37800287 ;
     schema:datePublished "2017-08-25"^^xsd:date .
 
 ex:AlbumQuestion a ex:Album ;
@@ -185,6 +192,13 @@ ex:GoodbyeGoodRiddance a ex:Album ;
     dcterms:title "Goodbye & Good Riddance" ;
     schema:datePublished "2018-05-23"^^xsd:date .
 
+ex:LegendsNeverDie a ex:Album ;
+    ex:hasGenre ex:EmoRap ;
+    ex:releasedBy ex:Interscope ;
+    dcterms:creator ex:JuiceWRLD ;
+    dcterms:title "Legends Never Die" ;
+    schema:datePublished "2020-07-10"^^xsd:date .
+
 ex:LilTracy a ex:Artist ;
     ex:hasGenre ex:CloudRap ;
     foaf:name "Lil Tracy" .
@@ -195,6 +209,7 @@ ex:Smokeasac a ex:Producer ;
 ex:TrippieRedd a ex:Artist ;
     ex:bornIn ex:Canton ;
     ex:hasGenre ex:EmoRap ;
+    owl:sameAs wd:Q40890697 ;
     foaf:name "Trippie Redd" ;
     schema:birthDate "1999-06-18"^^xsd:date .
 
@@ -203,6 +218,7 @@ ex:CWWYS1 a ex:Album ;
     ex:releasedBy ex:AWAL ;
     dcterms:creator ex:LilPeep ;
     dcterms:title "Come Over When You're Sober, Pt. 1" ;
+    owl:sameAs wd:Q39048820 ;
     schema:datePublished "2017-08-15"^^xsd:date .
 
 ex:CloudRap a ex:Genre ;
@@ -218,12 +234,6 @@ ex:Producer rdfs:subClassOf foaf:Person .
 
 ex:City rdfs:subClassOf schema:City .
 
-ex:JuiceWRLD a ex:Artist ;
-    ex:bornIn ex:Chicago ;
-    ex:hasGenre ex:EmoRap ;
-    foaf:name "Juice WRLD" ;
-    schema:birthDate "1998-12-02"^^xsd:date .
-
 ex:Label rdfs:subClassOf schema:Organization .
 
 ex:Artist rdfs:subClassOf foaf:Person .
@@ -232,12 +242,21 @@ ex:LilPeep a ex:Artist ;
     ex:bornIn ex:Allentown ;
     ex:hasGenre ex:CloudRap,
         ex:EmoRap ;
+    owl:sameAs wd:Q29388200 ;
     foaf:name "Lil Peep" ;
     schema:birthDate "1996-11-01"^^xsd:date .
+
+ex:JuiceWRLD a ex:Artist ;
+    ex:bornIn ex:Chicago ;
+    ex:hasGenre ex:EmoRap ;
+    owl:sameAs wd:Q52151598 ;
+    foaf:name "Juice WRLD" ;
+    schema:birthDate "1998-12-02"^^xsd:date .
 
 ex:XXXTentacion a ex:Artist ;
     ex:bornIn ex:Plantation ;
     ex:hasGenre ex:EmoRap ;
+    owl:sameAs wd:Q28561969 ;
     foaf:name "XXXTentacion" ;
     schema:birthDate "1998-01-23"^^xsd:date .
 
@@ -247,15 +266,4 @@ ex:EmoRap a ex:Genre ;
     rdfs:label "Emo rap" .
 
 ex:Track rdfs:subClassOf schema:MusicRecording .
-
-# додано вручну
-ex:WishingWell a ex:Track ;
-    ex:onAlbum ex:LegendsNeverDie ;
-    ex:performedBy ex:JuiceWRLD ;
-    dcterms:title "Wishing Well" .
-
-ex:Righteous a ex:Track ;
-    ex:onAlbum ex:LegendsNeverDie ;
-    ex:performedBy ex:JuiceWRLD ;
-    dcterms:title "Righteous" .
 
