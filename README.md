@@ -2,7 +2,7 @@
 
 An RDF graph for the "emo rap" domain built with Python and RDFLib, queried with SPARQL and linked to Wikidata.
 
-Course: Principles and Methods of Data Linking in Semantic Web Applications, Igor Sikorsky Kyiv Polytechnic Institute.
+Course: Principles and Methods of Data Linking in Semantic Web Applications.
 
 ## What it does
 
